@@ -1,0 +1,10 @@
+{ 
+  "coc.preferences.formatOnSaveFiletypes": ["css", "Markdown", "typescript", "javascript"],
+  "languageserver": {
+    "golang": {
+      "command": "/home/sean/go/bin/gopls",
+      "rootPatterns": ["go.mod"],
+      "filetypes": ["go"]
+    }
+  }
+}
